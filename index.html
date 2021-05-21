@@ -10,12 +10,19 @@
 <h1>Distributeur de tickets pour la promo 🎫</h1>
 <h2>👽 Ici c'est comme à la poissonerie 🐠, il faut faire la queue !</h2>
 
-<form id="help-form">
+
 
     <SELECT id="learner" size="1">
     </SELECT>
 
     <input id="input-name2" type="text" required>
+
+    <label for="input-name">Ton nom :</label>
+    <select id="input-name">
+
+    </select>
+    <label for="input-desc">La description du ticket :</label>
+    <input id="input-desc" type="text" required>
     <button type="submit">Je veux de l'aide 👋</button>
 
 </form>
@@ -26,9 +33,10 @@
     <table>
         <thead>
         <tr>
-            <th>Position</th>
+            <th>ID du ticket</th>
             <th>Nom</th>
             <th>Description</th>
+            <th>Date</th>
             <th>Passer mon tour</th>
         </tr>
         </thead>
